@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./content/css/service.page.css" />
+    <link rel="stylesheet" href="./content/css/utilities.css" />
+    <link rel="stylesheet" href="./content/css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./content/css/mobile.css"
+    />
+    <title>Westcoast Cars Service</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <h1 class="logo">
+          <span class="text-primary"><i class="fas fa-car"></i> Westcoast</span>
+          Cars
+        </h1>
+        <ul>
+          <li><a href="index.html">Start</a></li>
+          <li><a class="active" href="service.html">Service</a></li>
+          <li><a href="about.html">Om Oss</a></li>
+        </ul>
+      </nav>
+      <section>
+        <div class="form-wrap">
+          <h1>Boka din service här</h1>
+          <p>Fyll i dina uppgifter nedan</p>
+          <form>
+            <div class="form-group">
+              <label for="registration-no">Registreringsnummer</label>
+              <input
+                type="text"
+                name="registration-no"
+                id="registration-no"
+                placeholder="Ange bilens registreringsnummer"
+              />
+            </div>
+            <div class="form-group">
+              <label for="first-name">Förnamn</label>
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="Ange Förnamn"
+              />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Efternamn</label>
+              <input
+                type="text"
+                name="lastName"
+                id="last-name"
+                placeholder="Ange efternamn"
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">E-Post</label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                placeholder="Ange e-post"
+              />
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefon</label>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Ange ett telefonnummer"
+              />
+            </div>
+            <button type="submit" class="btn">Boka</button>
+          </form>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>

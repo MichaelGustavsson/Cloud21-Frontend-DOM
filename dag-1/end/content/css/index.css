@@ -1,0 +1,100 @@
+/* CSS endast för index.html */
+#showcase {
+  background: url('../img/landing.jpg') center center/cover no-repeat;
+  position: relative;
+  height: 100vh;
+}
+
+.showcase-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  padding: 0 1.4rem;
+}
+
+.showcase-content h1 {
+  font-size: 4rem;
+  margin-top: 2rem;
+}
+
+.showcase-content p {
+  font-size: 2rem;
+  max-width: 700px;
+  margin: 1rem 1.8rem;
+}
+
+#showcase::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#showcase * {
+  z-index: 1;
+}
+
+#gallery .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#gallery .column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 2;
+}
+
+#gallery .column .column-1,
+#gallery .column .column-2 {
+  height: 100%;
+}
+
+#gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#gallery .column-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 1.9rem;
+}
+
+#gallery .column-2 p {
+  padding-bottom: 2rem;
+}
+
+/* Features */
+#features {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box h4 {
+  text-align: center;
+}
+
+.box p {
+  padding: 0 1.3rem 2rem 1.3rem;
+}
