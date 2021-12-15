@@ -27,9 +27,21 @@
       <header>
         <h1 class="header">Här är alla våra bilar till försäljning</h1>
       </header>
+      <section class="search">
+        <input type="text" class="search-input" id="searchField" placeholder="Sök efter bil..."><button id="searchBtn" class="search-button"><i class="fa fa-search"></i></button>
+      </section>
+
+      <div class="modal hidden">
+        <button class="close-modal">&times;</button>
+        <div class="modal-container">
+                    
+        </div>
+      </div>
+
       <section class="gallery-wrapper"></section>
     </main>
 
+    <section class="overlay hidden"></section>
     <script src="./scripts/vehicles.js"></script>
     <script src="./scripts/gallery.js"></script>
   </body>
